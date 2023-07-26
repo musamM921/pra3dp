@@ -47,27 +47,27 @@ body{
 	
 }
 
-.later-1 {
+.layer-1 {
 	transform: translateZ(-155px);
 }
 
-.later-2 {
+.layer-2 {
 	transform: translateZ(180px);
 }
 
-.later-3 {
+.layer-3 {
 	transform: translateZ(190px);
 }
 
-.later-4 {
+.layer-4 {
 	transform: translateZ(300px);
 }
 
-.later-5 {
+.layer-5 {
 	transform: translateZ(300px);
 }
 
-.later-6 {
+.layer-6 {
 	transform: translateZ(380px);
 }
 
