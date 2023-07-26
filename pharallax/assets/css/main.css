@@ -44,4 +44,6 @@ body{
 	right: 0;
 	bottom: 0;
 	background-size: cover;
+	background-position:  center;
+	transform: rotateX(var(--move-x)) rotateY(var(--move-y));
 }
