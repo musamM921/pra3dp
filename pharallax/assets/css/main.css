@@ -4,7 +4,9 @@
 	box-sizing: border-box;
 }
 :root{
---index:calc(1vw + 1vh);
+--index: calc(1vw + 1vh);
+--transition: 1s cubic-bezier(.05, .5, 0, 1.000);
+
 }
 @font-face {
 	font-family: kamerik-3d;
@@ -42,6 +44,8 @@ body{
 	min-height: 500px;
 	transform-style: preserve-3d;
 	transform: rotateX(var(--move-x)) rotateY(var(--move-y));
+	will-change: transform;
+	transition: transform var(--transition);
 }
 
 .layers__item {
