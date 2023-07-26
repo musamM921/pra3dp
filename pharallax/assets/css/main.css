@@ -81,4 +81,8 @@ body{
 .hero-content {
 	font-size: calc(var(--index) * 2.9);
 	text-align: center;
+	text-transform: uppercase;
+}
+.hero-content span {
+	display: block;
 }
