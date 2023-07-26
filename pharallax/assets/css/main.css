@@ -30,6 +30,7 @@ body{
 
 .layers {
 	perspective: 1000px;
+	overflow: hidden;
 
 }
 .layers__container {
@@ -39,11 +40,33 @@ body{
 
 .layers__item {
 	position: absolute;
-	top: -5vw;
-	left: -5vw;
-	right: -5vw;
-	bottom: -5vw;
+    inset: -5vw;
 	background-size: cover;
 	background-position:  center;
 	transform: rotateX(var(--move-x)) rotateY(var(--move-y));
 }
+
+.later-1 {
+	transform: translateZ(80px);
+}
+
+.later-2 {
+	transform: translateZ(180px);
+}
+
+.later-3 {
+	transform: translateZ(190px);
+}
+
+.later-4 {
+	transform: translateZ(300px);
+}
+
+.later-5 {
+	transform: translateZ(300px);
+}
+
+.later-6 {
+	transform: translateZ(380px);
+}
+
