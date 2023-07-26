@@ -56,15 +56,15 @@ body{
 }
 
 .layer-3 {
-	transform: translateZ(190px) scale(.88);
+	transform: translateZ(190px) scale(.8);
 }
 
 .layer-4 {
-	transform: translateZ(300px);
+	transform: translateZ(300px) scale(.9);
 }
 
 .layer-5 {
-	transform: translateZ(300px);
+	transform: translateZ(300px) scale(.9);
 }
 
 .layer-6 {
