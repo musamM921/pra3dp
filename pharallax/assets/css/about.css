@@ -103,11 +103,12 @@ letter-spacing: normal;
 font-size: calc(var(--index) * .73);
 line-height: 3;
 }
+
+
 .button-start {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
-	text-decoration: none;
 	font-size:  calc(var(--index) * .71);
 	letter-spacing: -.02vw;
 	padding:  calc(var(--index) * .7)  calc(var(--index) * 1.25);
@@ -119,29 +120,13 @@ line-height: 3;
     cursor: pointer;
 	box-shadow: 0 0 5px rgba(76, 175, 80, 0);
 	transition: box-shadow 0.3s ease;
-    
+
 }
 
 .button-start:hover {
 	background-color: #053307;
 	/* Эффект свечения */
 	box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-	text-decoration: none;
-}
-
-.button-link{
-	display: inline-block;
-	
-	color: white;
-	padding: 10px 20px;
-	text-decoration: none;
-	border: none;
-	cursor: pointer;
-    
-}
-
-.button-link:hover {
-	background-color: #053307;
 }
 
 .layer-4, .layer-5, .layer-6 {
