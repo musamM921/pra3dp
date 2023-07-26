@@ -52,11 +52,11 @@ body{
 }
 
 .layer-2 {
-	transform: translateZ(180px);
+	transform: translateZ(180px) scale(1.06);
 }
 
 .layer-3 {
-	transform: translateZ(190px);
+	transform: translateZ(190px) scale(.88);
 }
 
 .layer-4 {
