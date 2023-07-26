@@ -18,7 +18,7 @@
 }
 
 body{
-	background-color: black;
+	background-color: #000;
 	color: #fff;
 	font-family: kamerik-3d;
 }
@@ -26,6 +26,10 @@ body{
 	width: 150px;
 	height: 150px;
 	background-repeat: no-repeat;
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	z-index: 1;
 }
 
 .layers {
@@ -35,6 +39,7 @@ body{
 }
 .layers__container {
 	height: 100vh;
+	min-height: 500px;
 	transform-style: preserve-3d;
 	transform: rotateX(var(--move-x)) rotateY(var(--move-y));
 }
