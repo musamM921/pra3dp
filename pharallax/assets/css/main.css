@@ -30,7 +30,7 @@ body{
     height: var(--logo-size);
 	background-repeat: no-repeat;
 	position: absolute;
-	left: calc(50% - calc(var(--logo-size) / 2));
+	left: calc(51% - calc(var(--logo-size) / 2));
 	top: calc(var(--index) * 2.8);
 	z-index: 1;
 
@@ -45,7 +45,7 @@ body{
 	height: 100vh;
 	min-height: 500px;
 	transform-style: preserve-3d;
-	transform: rotateX(var(--move-x)) rotateY(var(--move-y));
+	transform: rotateX(var(--move-y)) rotateY(var(--move-x));
 	will-change: transform;
 	transition: transform var(--transition);
 }
@@ -61,19 +61,19 @@ body{
 }
 
 .layer-1 {
-	transform: translateZ(-155px);
+	transform: translateZ(-55px) scale(1.06);
 }
 
 .layer-2 {
-	transform: translateZ(180px) scale(1.06);
+	transform: translateZ(80px) scale(.88);
 }
 
 .layer-3 {
-	transform: translateZ(190px) scale(.8);
+	transform: translateZ(180px) scale(.8);
 }
 
 .layer-4 {
-	transform: translateZ(300px) scale(.9);
+	transform: translateZ(190px) scale(.9);
 }
 
 .layer-5 {
@@ -96,7 +96,7 @@ body{
 	display: block;
 }
 
-.hero-content__p{
+.hero-content__p {
 text-transform: none;
 font-family:  merriweather-italic-3d;
 letter-spacing: normal;
@@ -116,4 +116,8 @@ line-height: 3;
 	border: rgb(255 255 255 / .4) 3px solid;
 	outline: none;
     cursor: pointer;
+}
+
+.layer-4, .layer-5, .layer-6 {
+	pointer-events: none;
 }
