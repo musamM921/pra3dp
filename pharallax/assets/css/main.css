@@ -39,10 +39,10 @@ body{
 
 .layers__item {
 	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+	top: -5vh;
+	left: -5vh;
+	right: -5vh;
+	bottom: -5vh;
 	background-size: cover;
 	background-position:  center;
 	transform: rotateX(var(--move-x)) rotateY(var(--move-y));
